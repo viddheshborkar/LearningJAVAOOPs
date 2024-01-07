@@ -12,7 +12,6 @@ public class StaticExampleMain {
         StaticExample se = new StaticExample();
         System.out.println("Output of non-static variable a is "+se.a);
         se.nonStaticMethod();
-
         se.nonStaticM();
     }
 }
