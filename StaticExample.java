@@ -1,7 +1,7 @@
 public class StaticExample {
 
-    int a=5;
-    static int b=10;
+    int a;
+    static int b;
 
     // Non-static method
     void nonStaticMethod() {
@@ -11,7 +11,7 @@ public class StaticExample {
     //Static method
     static void staticMethod() {
         System.out.println("This is static method");
-        }
+    }
 
     // Non-static method can call all static as well as non-static method.
     void nonStaticM() {
@@ -25,16 +25,16 @@ public class StaticExample {
     public static void main(String[] args) {
         // Static Method is called without an object
         staticMethod();
+        b=10;
         System.out.println("Output of static variable is "+b);
 
         //Non-static Method is called creating an object
 
         StaticExample se = new StaticExample();
+        se.a=5;
         System.out.println("Output of non-static variable is "+se.a);
         se.nonStaticMethod();
 
         se.nonStaticM();
-
     }
 }
-
