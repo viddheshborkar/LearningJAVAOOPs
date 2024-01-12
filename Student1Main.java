@@ -21,7 +21,7 @@ public class Student1Main {
     */
 
         // Approach 3 - Constructor
-        Student1 st = new Student1("Rahul",25,"Vocational",'C');
-        st.display();
+        Student1 st1 = new Student1("Rahul",25,"Vocational",'C');
+        st1.display();
     }
 }
