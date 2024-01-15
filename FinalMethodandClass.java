@@ -1,5 +1,5 @@
-   final class Bike {  //this class is set as final
-        final void run() { // this method is set as final
+    class Bike {  //this class is set as final
+         void run() { // this method is set as final
         System.out.println("The bike is running..");
     }
 }
